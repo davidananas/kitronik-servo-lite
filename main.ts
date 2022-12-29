@@ -26,6 +26,6 @@ let strip: neopixel.Strip = null
 strip = neopixel.create(DigitalPin.P0, 5, NeoPixelMode.RGB)
 pin = neopixel.create(DigitalPin.P0, 5, NeoPixelMode.RGB)
 pin_l = neopixel.create(DigitalPin.P0, 5, NeoPixelMode.RGB)
-pin.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
-pin_l.setPixelColor(4, neopixel.colors(NeoPixelColors.Red))
+pin.setPixelColor(0, neopixel.colors(NeoPixelColors.Orange))
+pin_l.setPixelColor(4, neopixel.colors(NeoPixelColors.Orange))
 strip.showColor(neopixel.colors(NeoPixelColors.Red))
