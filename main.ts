@@ -1,19 +1,19 @@
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     strip.showColor(neopixel.colors(NeoPixelColors.Green))
-    kitronik_servo_lite.forward()
+    kitronik_servo_lite.backward()
 })
 input.onButtonPressed(Button.A, function () {
     pin.show()
-    kitronik_servo_lite.turnRight(15)
+    kitronik_servo_lite.turnRight(50)
     strip.showColor(neopixel.colors(NeoPixelColors.Red))
 })
 input.onButtonPressed(Button.AB, function () {
     strip.showColor(neopixel.colors(NeoPixelColors.Green))
-    kitronik_servo_lite.backward()
+    kitronik_servo_lite.forward()
 })
 input.onButtonPressed(Button.B, function () {
     pin_l.show()
-    kitronik_servo_lite.turnLeft(15)
+    kitronik_servo_lite.turnLeft(50)
     strip.showColor(neopixel.colors(NeoPixelColors.Red))
 })
 input.onLogoEvent(TouchButtonEvent.Touched, function () {
